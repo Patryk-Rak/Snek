@@ -1,0 +1,1399 @@
+"C:\Users\Dan Timefly\Desktop\Programowanie\Python\HelloWorld\venv\Scripts\python.exe" "C:/Users/Dan Timefly/Desktop/Programowanie/Python/HelloWorld/App.py"
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="Invasion/Alerts/News/Sale/Dark Sectors tracker for Warframe (PC)." name="description"/>
+  <meta content="warframe,invasions,alerts,news,tracker,daynight,badlands,dark sectors" name="keywords"/>
+  <title>
+   Warframe (PC) Trackers - Invasion - Alerts - News - Sales - Dark Sectors | Deathsnacks's Stuff
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <script src="/cdn-cgi/apps/head/DeLBrLDLXaNV-gLrdFDBIBWt2c0.js">
+  </script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+   /**/.invasion-container,.alerts-container,.news-container {
+	margin: 0 auto;
+}
+.invasion-entry, .nodes-header {
+	cursor:pointer;
+}
+.invasion-table {
+	width: 100%;
+}
+.alerts-container,.sale-container,.deal-container,.toggler-vt,.sorties-container,.persistentenemies-container,.fissures-container {
+	text-align:left;
+}
+.small-footer {
+	font-size: small;
+}
+.tiny-text {
+	font-size: xx-small;
+}
+.invasion-seperator {
+	margin: 0 auto;
+	display: none;
+}
+.alert-badge {
+	float: right;
+	text-align: right;
+}
+.badge.alert2 {
+	float: right;
+	margin-left: 5px;
+}
+img {
+	max-height:100%;
+	z-index:10;
+	position:relative;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+}
+.defending-cell, .invading-cell {
+	width: 15%;
+}
+.invasion-node,.alert-node,.invasion-percent,.defending-fc,.invading-type,.invasion-region,#daynight,.sale-name,.sale-amount,.bold {
+	font-weight:bold;
+}
+
+.expandedtitle {
+	font-weight:normal;
+}
+
+.Grineer.arrow-right:after {
+	border-left-color: #d9534f;
+}
+
+.Grineer.arrow-left:after {
+	border-right-color: #d9534f;
+}
+
+.Corpus.arrow-right:after {
+	border-left-color: #428bca;
+}
+
+.Corpus.arrow-left:after {
+	border-right-color: #428bca;
+}
+
+.Infestation.arrow-right:after {
+	border-left-color: #5cb85c;
+}
+
+.Infestation.arrow-left:after {
+	border-right-color: #5cb85c;
+}
+
+.arrow-right, .arrow-left {
+	position: relative;
+}
+
+.arrow-left:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.arrow-right:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+
+.nobullets {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.caret.caret-reversed {
+	border-top-width: 0;
+	border-bottom: 4px solid;
+}
+
+.well hr {
+	border-top: 1px solid #aaa;
+}
+
+
+.progress {
+	background-color: #ddd;
+}
+
+.down {
+	color: red;
+	font-weight: bold;
+}
+
+.up {
+	color: green;
+	font-weight: bold;
+}
+
+.nomargin {
+	margin-bottom: auto !important;
+}
+
+.blpanel {
+	margin-bottom: 0px !important;
+}
+
+.nodeleft {
+	float: left;
+	text-align: left;
+}
+
+.noderight {
+	float: right;
+	text-align: right;
+}
+
+.nodemiddle {
+	float: none;
+	text-align: middle;
+}
+/**/
+  </style>
+  <script type="text/javascript">
+   /*  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.deathsnacks.com"]);
+  _paq.push(["setDomains", ["*.deathsnacks.com"]]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https://" : "http://") + "deathsnacks.com/analytics/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();*/
+  </script>
+  <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({
+		google_ad_client: "ca-pub-4739569954307009",
+		enable_page_level_ads: true
+	  });
+  </script>
+ </head>
+ <body>
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" style="border-color:#333" type="button">
+      <span class="icon-bar" style="background:white">
+      </span>
+      <span class="icon-bar" style="background:white">
+      </span>
+      <span class="icon-bar" style="background:white">
+      </span>
+     </button>
+     <a class="navbar-brand" href="/">
+      Deathsnacks's Stuff
+     </a>
+    </div>
+    <div class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+      <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        Warframe
+        <b class="caret">
+        </b>
+       </a>
+       <ul class="dropdown-menu">
+        <li class="dropdown-header">
+         PC
+        </li>
+        <li>
+         <a href="/wf/index.html">
+          Event Tracker
+         </a>
+        </li>
+        <li class="dropdown-header">
+         PS4
+        </li>
+        <li>
+         <a href="/wfps4/index.html">
+          Event Tracker
+         </a>
+        </li>
+        <li class="dropdown-header">
+         Xbox One
+        </li>
+        <li>
+         <a href="/wfxb1/index.html">
+          Event Tracker
+         </a>
+        </li>
+        <li class="dropdown-header">
+         Switch
+        </li>
+        <li class="disabled">
+         <a href="/wfswi/index.html">
+          Coming soon
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        Dota 2
+        <b class="caret">
+        </b>
+       </a>
+       <ul class="dropdown-menu">
+        <li class="dropdown-header">
+         The International 4
+        </li>
+        <li>
+         <a href="/dota2/ti4prizepool.html">
+          Prize Pool Tracker
+         </a>
+        </li>
+        <li>
+         <a href="/dota2/ti4replaypacks.html">
+          Replay Packs
+         </a>
+        </li>
+        <li class="dropdown-header">
+         The International 3
+        </li>
+        <li>
+         <a href="/dota2/ti3mainevent.html">
+          Main Event Replays
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        FF Brave Exvius
+        <b class="caret">
+        </b>
+       </a>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="/ffbe/index.html">
+          Japan News
+         </a>
+        </li>
+        <li>
+         <a href="/ffbe/global.html">
+          Global News
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li>
+       <a onclick="toggleDark();">
+        Night Mode
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <script>
+   document.getElementsByClassName('navbar-right')[0].insertAdjacentHTML('afterbegin', '<li><a data-toggle="modal" data-target="#settingsModal">WF Settings</a></li>')
+  </script>
+  <div class="container" id="containerdiv" style="text-align:center;margin:0 auto;">
+   <div class="alert alert-info alert-dismissible" id="desktopAlert" role="alert">
+    <button aria-label="Close" class="close" data-dismiss="alert" type="button">
+     <span aria-hidden="true">
+      ×
+     </span>
+    </button>
+    Desktop notifications are now available and settings are available by clicking the WF Settings button in the menu up there.
+   </div>
+   <div class="alert alert-info alert-dismissible" id="sunsetAlert" role="alert">
+    <button aria-label="Close" class="close" data-dismiss="alert" type="button">
+     <span aria-hidden="true">
+      ×
+     </span>
+    </button>
+    This page is no longer actively maintained. Try
+    <a href="https://hub.warframestat.us/">
+     Warframe Hub
+    </a>
+    as an alternative.
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h2>
+      Alerts
+     </h2>
+     <hr/>
+     <div>
+      <ul class="list-group alerts-container">
+       <li class="list-group-item">
+        No alerts at this time.
+       </li>
+      </ul>
+     </div>
+     <hr/>
+     <div>
+      <h2>
+       News
+      </h2>
+      <div class="news-container">
+       <div>
+        [4h]
+        <a href="https://www.warframe.com/es/news/emision-tenno?utm_source=in-game&amp;utm_medium=ign">
+         Â¡EmisiÃ³n Tenno 86 hoy hablando de los mods Inmortales y con sorteo de Prime Access de Atlas!
+        </a>
+       </div>
+       <div>
+        [2d]
+        <a href="https://forums.warframe.com/topic/1135060-dev-workshop-%E8%BF%91%E6%8E%A5%E3%83%AA%E3%83%AF%E3%83%BC%E3%82%AF-%E3%83%95%E3%82%A7%E3%83%BC%E3%82%BA%EF%BC%92%EF%BC%9A%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/">
+         Dev Workshop - è¿æ¥ãªã¯ã¼ã¯ ãã§ã¼ãºï¼ï¼ãã¯ããã¯
+        </a>
+       </div>
+       <div>
+        [2d]
+        <a href="https://www.warframe.com/news/nightwave-intermission-ii?utm_source=in-game&amp;utm_medium=ign">
+         Nightwave: Intermission II is Live!
+        </a>
+       </div>
+       <div>
+        [2d]
+        <a href="https://forums.warframe.com/topic/1134746-melee-zmiany-walki-wr%C4%99cz-faza-2-technika/">
+         Zmiany Walki WrÄcz: Faza 2.
+        </a>
+       </div>
+       <div>
+        [4d]
+        <a href="https://forums.warframe.com/topic/1134533-atlas-prime-revisi%C3%B3n-2582/">
+         Atlas Prime: RevisiÃ³n 25.8.2
+        </a>
+       </div>
+       <div>
+        [5d]
+        <a href="https://forums.warframe.com/topic/1134483-concurso-sistema-embrujado/">
+         Â¡Â«Concurso: Sistema EmbrujadoÂ» disponible ya!
+        </a>
+       </div>
+       <div>
+        [5d]
+        <a href="https://www.warframe.com/news/the-old-blood?utm_source=in-game&amp;utm_medium=ign">
+         The Old Blood Coming Soon!
+        </a>
+       </div>
+       <div>
+        [5d]
+        <a href="https://forums.warframe.com/topic/1134464-the-orbital-haunt-contest-is-live/">
+         The Orbital Haunt Contest is Live!
+        </a>
+       </div>
+       <div>
+        [5d]
+        <a href="https://forums.warframe.com/topic/1134461-atlas-prime-hotfix-2582/">
+         Atlas Prime: Hotfix 25.8.2
+        </a>
+       </div>
+       <div>
+        [12d]
+        <a href="https://store.warframe.com/collections/collectibles/products/villains-collection">
+         Limited-Edition Villains Merch Available Now
+        </a>
+       </div>
+       <div>
+        [13d]
+        <a href="https://forums.warframe.com/topic/1128892-evento-da-comunidade-brasileira-em-s%C3%A3o-paulo/">
+         Dois dias para o encontro Tenno em SÃ£o Paulo!
+        </a>
+       </div>
+       <div>
+        [14d]
+        <a href="https://forums.warframe.com/topic/1133035-taller-de-desarrollo-vauban-ember/">
+         Taller de Desarrollo: RevisiÃ³n de Vauban y Ember
+        </a>
+       </div>
+       <div>
+        [21d]
+        <a href="https://www.warframe.com/news/day-of-the-dead-2019?utm_source=in-game&amp;utm_medium=ign">
+         Day of the Dead Skins Are Back Until Nov. 1!
+        </a>
+       </div>
+       <div>
+        [22d]
+        <a href="https://www.warframe.com/news/atlas-prime-access-coming-soon">
+         Atlas Prime Access Available Now
+        </a>
+       </div>
+       <div>
+        [50d]
+        <a href="https://www.warframe.com/news/prime-vault-opens-sept-3?utm_source=in-game&amp;utm_medium=ign">
+         Valkyr and Saryn Prime Vault Available Now!
+        </a>
+       </div>
+       <div>
+        [54d]
+        <a href="https://forums.warframe.com/topic/1071456-%C2%A1las-redes-sociales-de-warframe-en-espa%C3%B1ol/">
+         Â¡SÃ­guenos en las redes sociales oficiales de Warframe en espaÃ±ol!
+        </a>
+       </div>
+       <div>
+        [54d]
+        <a href="https://www.warframe.com/news/saint-of-altra?utm_source=in-game&amp;utm_medium=ign">
+         Le ConquÃ©rant d'Altra est maintenant disponible
+        </a>
+       </div>
+      </div>
+     </div>
+     <hr class="hidden-lg hidden-md"/>
+    </div>
+    <div class="col-md-6">
+     <h2>
+      Invasions
+     </h2>
+     <hr>
+      <div class="invasion-container">
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+            <span class="badge" style="float:left;">
+             Sheev Hilt
+            </span>
+           </td>
+           <td>
+            <span class="invasion-node">
+             Thebe
+            </span>
+            (
+            <span class="invasion-region">
+             Jupiter
+            </span>
+            ) -
+            <span class="invasion-desc" title="Grineer Offensive - ">
+            </span>
+            <span class"invading-fc"="">
+             Grineer
+            </span>
+            <span class="invading-type" style="" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="30349/34000 - Running time: 1.30d - ETA: 3 hrs">
+             94.63%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             Dera Vandal Receiver
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar arrow-right Grineer progress-bar-danger" style="width:94.63%">
+          <span class="faction-bar">
+           <img src="img/grineer.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar Corpus progress-bar" style="width:5.37%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+            <span class="badge" style="float:left;">
+             Strun Wraith Barrel
+            </span>
+           </td>
+           <td>
+            <span class="invasion-node">
+             Io
+            </span>
+            (
+            <span class="invasion-region">
+             Jupiter
+            </span>
+            ) -
+            <span class="invasion-desc" title="Grineer Offensive - ">
+            </span>
+            <span class"invading-fc"="">
+             Grineer
+            </span>
+            <span class="invading-type" style="" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="28425/41000 - Running time: 1.30d - ETA: 12 hrs">
+             84.66%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             Dera Vandal Stock
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar arrow-right Grineer progress-bar-danger" style="width:84.66%">
+          <span class="faction-bar">
+           <img src="img/grineer.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar Corpus progress-bar" style="width:15.34%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+           </td>
+           <td>
+            <span class="invasion-node">
+             Sao
+            </span>
+            (
+            <span class="invasion-region">
+             Neptune
+            </span>
+            ) -
+            <span class="invasion-desc" title="Infested Outbreak - ">
+            </span>
+            <span class"invading-fc"="">
+             Infestation
+            </span>
+            <span class="invading-type" style="display:none;" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="-22207/40000 - Running time: 4.22h - ETA: 105 mins">
+             44.48%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             Mutalist Alad V Nav Coordinate
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar Infestation progress-bar-success" style="width:44.48%">
+          <span class="faction-bar">
+           <img src="img/infestation.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar arrow-left Corpus progress-bar" style="width:55.52%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+           </td>
+           <td>
+            <span class="invasion-node">
+             Psamathe
+            </span>
+            (
+            <span class="invasion-region">
+             Neptune
+            </span>
+            ) -
+            <span class="invasion-desc" title="PHORID Manifestation - ">
+            </span>
+            <span class"invading-fc"="">
+             Infestation
+            </span>
+            <span class="invading-type" style="display:none;" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="-4055/30000 - Running time: 4.22h - ETA: 26 hrs">
+             86.48%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             Mutalist Alad V Nav Coordinate
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar Infestation progress-bar-success" style="width:86.48%">
+          <span class="faction-bar">
+           <img src="img/infestation.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar arrow-left Corpus progress-bar" style="width:13.52%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+           </td>
+           <td>
+            <span class="invasion-node">
+             Despina
+            </span>
+            (
+            <span class="invasion-region">
+             Neptune
+            </span>
+            ) -
+            <span class="invasion-desc" title="Infested Outbreak - ">
+            </span>
+            <span class"invading-fc"="">
+             Infestation
+            </span>
+            <span class="invading-type" style="display:none;" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="-1889/48000 - Running time: 2.30h - ETA: 68 hrs">
+             96.06%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             2 Mutagen Mass
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar Infestation progress-bar-success" style="width:96.06%">
+          <span class="faction-bar">
+           <img src="img/infestation.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar arrow-left Corpus progress-bar" style="width:3.94%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+            <span class="badge" style="float:left;">
+             3 Fieldron
+            </span>
+           </td>
+           <td>
+            <span class="invasion-node">
+             Numa
+            </span>
+            (
+            <span class="invasion-region">
+             Saturn
+            </span>
+            ) -
+            <span class="invasion-desc" title="Corpus Siege - ">
+            </span>
+            <span class"invading-fc"="">
+             Corpus
+            </span>
+            <span class="invading-type" style="" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Grineer
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="5593/37000 - Running time: 13.31h - ETA: 58 hrs">
+             57.56%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             3 Detonite Injector
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar arrow-right Corpus progress-bar" style="width:57.56%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar Grineer progress-bar-danger" style="width:42.44%">
+          <span class="faction-bar">
+           <img src="img/grineer.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+            <span class="badge" style="float:left;">
+             3 Fieldron
+            </span>
+           </td>
+           <td>
+            <span class="invasion-node">
+             Enceladus
+            </span>
+            (
+            <span class="invasion-region">
+             Saturn
+            </span>
+            ) -
+            <span class="invasion-desc" title="Corpus Siege - ">
+            </span>
+            <span class"invading-fc"="">
+             Corpus
+            </span>
+            <span class="invading-type" style="" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Grineer
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="4958/37000 - Running time: 13.20h - ETA: 60 hrs">
+             56.70%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             3 Detonite Injector
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar arrow-right Corpus progress-bar" style="width:56.70%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar Grineer progress-bar-danger" style="width:43.30%">
+          <span class="faction-bar">
+           <img src="img/grineer.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="invasion-entry">
+        <table class="invasion-table">
+         <tbody>
+          <tr>
+           <td class="invading-cell" valign="bottom">
+           </td>
+           <td>
+            <span class="invasion-node">
+             Fossa
+            </span>
+            (
+            <span class="invasion-region">
+             Venus
+            </span>
+            ) -
+            <span class="invasion-desc" title="PHORID Manifestation - ">
+            </span>
+            <span class"invading-fc"="">
+             Infestation
+            </span>
+            <span class="invading-type" style="display:none;" title="Level: 0-0">
+             (???)
+            </span>
+            vs
+            <span class"defending-type"="">
+             Corpus
+            </span>
+            <span class="defending-fc" style="" title="Level: 0-0">
+             (???)
+            </span>
+            -
+            <span class="invasion-percent" title="-29280/30000 - Running time: 14.38h - ETA: 19 mins">
+             2.40%
+            </span>
+           </td>
+           <td class="defending-cell" valign="bottom">
+            <span class="badge" style="float:right;">
+             3 Fieldron
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="progress">
+         <div class="progress-bar Infestation progress-bar-success" style="width:2.40%">
+          <span class="faction-bar">
+           <img src="img/infestation.png" style="height:20px;float:left;"/>
+          </span>
+         </div>
+         <div class="progress-bar arrow-left Corpus progress-bar" style="width:97.60%">
+          <span class="faction-bar">
+           <img src="img/corpus.png" style="height:20px;float:right;"/>
+          </span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </hr>
+    </div>
+   </div>
+   <hr/>
+   <div class="row">
+    <hr class="hidden-lg hidden-md"/>
+    <div class="col-md-6">
+     <h2>
+      Darvo Daily Deals
+     </h2>
+     <div>
+      <ul class="list-group deal-container">
+       <li class="list-group-item">
+        <noscript>
+         Javascript is required to load this page.
+        </noscript>
+        <script>
+         document.write('Loading')
+        </script>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <hr class="hidden-lg hidden-md"/>
+    <div class="col-md-6">
+     <h2>
+      Void Traders
+     </h2>
+     <div class="list-group" id="vtaccordion">
+     </div>
+    </div>
+   </div>
+   <hr/>
+   <div class="row">
+    <div class="col-md-6">
+     <h2>
+      Sorties
+     </h2>
+     <div>
+      <ul class="list-group sorties-container">
+       <li class="list-group-item">
+        <noscript>
+         Javascript is required to load this page.
+        </noscript>
+        <script>
+         document.write('Loading')
+        </script>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h2>
+      Void Fissures
+     </h2>
+     <div>
+      <ul class="list-group fissures-container">
+       <li class="list-group-item">
+        <noscript>
+         Javascript is required to load this page.
+        </noscript>
+        <script>
+         document.write('Loading')
+        </script>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <hr/>
+   <div class="row">
+    <div class="col-md-6">
+     <h2>
+      Cetus Day/Night Cycle
+     </h2>
+     <h3 id="cetusdaynight" style="margin:0;">
+     </h3>
+     <p id="cetusdaynight-timeleft">
+     </p>
+    </div>
+    <hr class="hidden-lg hidden-md"/>
+    <div class="col-md-6">
+     <h2>
+      Earth Day/Night Cycle
+     </h2>
+     <h3 id="daynight" style="margin:0;">
+     </h3>
+     <p id="daynight-timeleft">
+     </p>
+     <p>
+      Cycles are 4 hours each.
+     </p>
+    </div>
+   </div>
+   <hr/>
+   <div>
+    <h2>
+     Acolytes
+    </h2>
+    <div>
+     <ul class="list-group persistentenemies-container">
+      <li class="list-group-item">
+       No enemies have been discovered.
+      </li>
+     </ul>
+    </div>
+   </div>
+   <hr/>
+   <div>
+    <h2>
+     Market Items
+    </h2>
+    <div>
+     <ul class="list-group sale-container">
+      <li class="list-group-item">
+       <noscript>
+        Javascript is required to load this page.
+       </noscript>
+       <script>
+        document.write('Loading')
+       </script>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <hr/>
+   <p class="small-footer" style="text-align:center;">
+    This page automatically refreshes every minute.
+    <br/>
+    Data is obtained directly from the game.
+    <br/>
+    You may contact me at
+    <a href="https://reddit.com/u/Deathmax" target="_blank">
+     /u/Deathmax
+    </a>
+    <br/>
+    <br/>
+    Warframe content and materials are trademarks and copyrights of Digital Extremes.
+   </p>
+  </div>
+  <div aria-labelledby="settingsModalLabel" class="modal fade" id="settingsModal" role="dialog" tabindex="-1">
+   <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+      </button>
+      <h4 class="modal-title" id="settingsModalLabel">
+       Warframe Settings
+      </h4>
+     </div>
+     <div class="modal-body">
+      <input class="setting" data-cookie="sound_checked" name="sound" type="checkbox"/>
+      Enable Alert/Invasion Sound Notifications
+      <br/>
+      <input class="setting" data-cookie="desktopNotification" id="notCb" name="desktopnotification" type="checkbox"/>
+      Enable Desktop Notification
+      <br/>
+      <input class="setting disabled" data-cookie="ds_enabled" name="darksector" type="checkbox"/>
+      Show me Dark Sectors
+      <br/>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-default" data-dismiss="modal" type="button">
+       Close
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js">
+ </script>
+ <script src="/includes/nightmode.js?v=1">
+ </script>
+ <script type="text/javascript">
+  window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on this website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-bottom"};
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js" type="text/javascript">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/moment.min.js">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.1/jquery.tablesorter.min.js">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.1/jquery.tablesorter.widgets.min.js">
+ </script>
+ <script src="/includes/js/quickpager.jquery.js">
+ </script>
+ <script src="/includes/common.js">
+ </script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js">
+ </script>
+ <script id="alert-template" type="text/x-handlebars-template">
+  {{#alerts}}
+<li class="list-group-item">
+	<p class="alert-badge"><span class="badge time alert2" data-starttime="{{starttime}}" data-endtime="{{endtime}}"></span></p>
+	{{{badges}}}<span class="alert-node">{{node}} ({{region}})</span> | <span class="alert-type">{{type}}</span> (<span class="alert-fc">{{faction}}</span>) | Level: {{minlevel}}-{{maxlevel}}
+</li>
+{{/alerts}}
+ </script>
+ <script id="sale-template" type="text/x-handlebars-template">
+  {{#sales}}
+	<li class="list-group-item flashsale"><span class="badge time" data-starttime="{{starttime}}" data-endtime="{{endtime}}"></span><span class="sale-name">{{name}}</span> | <span class="sale-discount">{{discount}}% off</span> | <span class="sale-amount">{{{amount}}}</span></li>
+{{/sales}}
+ </script>
+ <script id="sortie-template" type="text/x-handlebars-template">
+  {{#variants}}
+	<li class="list-group-item sortievariant"><span class="badge sortietime" data-endtime="{{expiry}}"></span><span class="bold">{{node}}</span> | <span>{{mission}}</span> | <span>{{modifier}}</span> | <span>{{boss}}</span></li>
+{{/variants}}
+ </script>
+ <script id="fissure-template" type="text/x-handlebars-template">
+  {{#fissures}}
+	<li class="list-group-item fissureitem"><span class="badge time" data-starttime="{{activation}}" data-endtime="{{expiry}}"></span><span class="bold">{{node}}</span> | <span>{{modifier}}</span></li>
+{{/fissures}}
+ </script>
+ <script id="peaceful_ds-template" type="text/x-handlebars-template">
+  <div class="armistice_node">
+	<a class="toggler list-group-item" id="{{id}}">
+		<span class="pull-left"><strong>{{node}} ({{region}})</strong><i><span class="small-footer"> {{type}} </span></i></span>
+		<span class="hidden-xs"> Tax: {{pub_cred}}%/{{pub_resource}}%</span> </span>
+		<span class="pull-right"><span class="header-time hidden-xs" data-time="{{time}}"></span> <strong>{{status}} </strong>
+		<span class="caret"></span></span>
+		<br style="clear: both;">
+	</a>
+	<div class="blpanel collapse">
+		<div class="well">
+			<h5>{{is_alliance}}</h5>
+			<p><a target="_blank" href="/wf/clan_bl_history.html#{{def_id}}">{{name}}</a></p>
+			<p>Deployed by: {{deployed}}</p>
+			<h5>Message</h5>
+			<p>{{message}}</p>
+			<p>Authored by: {{author}}</p>
+			<h5>Tributes</h5>
+			<ul class="nobullets">
+				<li>Public Credits/Resource Tribute: {{pub_cred}}%/{{pub_resource}}%</li>
+				<li>Member Credits/Resource Tribute: {{member_cred}}%/{{member_resource}}%</li>
+			</ul>
+			<p>Tribute changed by: {{def_taxchange}} ({{def_taxchange_clan}})<p>
+			<h5>Rail Health</h5>
+			<div class="progress">
+				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{health}}" aria-valuemin="0" aria-valuemax="100" style="width: {{health}}%;">{{health}}%</div>
+			</div>
+			<h5>Tribute Change Allowed</h5>
+			<p class="taxtime" data-time="{{taxtime}}"></p>
+			{{{timer}}}
+			{{{history}}}
+		</div>
+	</div>
+</div>
+ </script>
+ <script id="deploying_ds-template" type="text/x-handlebars-template">
+  <div class="deploying_node">
+	<a class="toggler list-group-item list-group-item-warning" id="{{id}}">
+		<span class="pull-left"><strong>{{node}} ({{region}})</strong> <i><span class="small-footer">{{type}} </span></i></span>
+		<span class="hidden-xs"> Tax: {{def_pub_cred}}%/{{def_pub_resource}}%</span> </span>
+		<span class="pull-right"><span class="header-time hidden-xs" data-time="{{time}}"></span> <strong><font color="#E34234">ATTACK DEPLOYING  </font></strong>
+		<span class="caret"></span></span>
+		<br style="clear: both;">
+	</a>
+	<div class="blpanel collapse">
+		<div class="well">
+			<div class="col-md-6">
+				<h5>Defending {{def_is_alliance}}</h5>
+				<p><a target="_blank" href="/wf/clan_bl_history.html#{{def_id}}">{{def_name}}</a></p>
+				<p>Deployed by: {{def_deployer}}</p>
+				<h5>Message</h5>
+				<p>{{def_message}}</p>
+				<p>Authored by: {{def_author}}</p>
+				<h5>Tributes</h5>
+				<ul class="nobullets">
+					<li>Credits/Resource Tribute: {{def_pub_cred}}%/{{def_pub_resource}}%</li>
+					<li>Member Credits/Resources Tribute: {{def_member_cred}}%/{{def_member_resource}}%</li>
+				</ul>
+				<p>Tribute changed by: {{def_taxchange}} ({{def_taxchange_clan}})<p>
+				<h5>Rail Health</h5>
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{def_health}}" aria-valuemin="0" aria-valuemax="100" style="width: {{def_health}}%;">{{def_health}}%</div>
+				</div>
+				<h5>Battle Pay</h5>
+				<p>{{def_pay}}</p>
+				<h5>Tribute Change Allowed</h5>
+				<p class="taxtime" data-time="{{def_taxtime}}"></p>
+				<hr class="hidden-lg hidden-md">
+			</div>
+			<div class="col-md-6">
+				<h5>Attacking {{atk_is_alliance}}</h5>
+				<p><a target="_blank" href="/wf/clan_bl_history.html#{{atk_id}}">{{atk_name}}</a>
+				</p>
+				<p>Deployed by: {{atk_deployer}}</p>
+				<h5>Message</h5>
+				<p>{{atk_message}}</p>
+				<p>Authored by: {{atk_author}}</p>
+				<h5>Tributes</h5>
+				<ul class="nobullets">
+					<li>Credits/Resource Tribute: {{atk_pub_cred}}%/{{atk_pub_resource}}%</li>
+					<li>Member Credits/Resources Tribute: {{atk_member_cred}}%/{{atk_member_resource}}%</li>
+				</ul>
+				<p>Tribute changed by: {{atk_taxchange}} ({{atk_taxchange_clan}})<p>
+				<h5>Rail Health</h5>
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{atk_health}}" aria-valuemin="0" aria-valuemax="100" style="width: {{atk_health}}%;">{{atk_health}}%</div>
+				</div>
+				<h5>Battle Pay</h5>
+				<p>{{atk_pay}}</p>
+				<h5>Tribute Change Allowed</h5>
+				<p class="taxtime" data-time="{{atk_taxtime}}"></p>
+				<br>
+				<p><span class="bldeploytime" data-time="{{time}}"></span>
+				</p>
+			</div>
+			{{{history}}}
+		</div>
+	</div>
+</div>
+ </script>
+ <script id="conflict_ds-template" type="text/x-handlebars-template">
+  <div class="conflict_node">
+	<a class="toggler list-group-item list-group-item-danger" id="{{id}}">
+		<span class="pull-left"><strong>{{node}} ({{region}})</strong> <i><span class="small-footer">{{type}} </span></i></span>
+		<span> <span class="hidden-xs">{{def_name}} (</span><b>{{def_health}}</b>%<span class="hidden-xs">) vs {{atk_name}}</span> </span>
+		<span class="pull-right"><span class="header-time hidden-xs" data-time="{{time}}"></span>  <strong><font color="red">CONFLICT</font></strong> 
+		<span class="caret"></span></span>
+		<br style="clear: both;">
+	</a>
+	<div class="blpanel collapse">
+		<div class="well">
+			<div class="row">
+				<div class="col-md-6">
+					<h5>Defending {{def_is_alliance}}</h5>
+					<p><a target="_blank" href="/wf/clan_bl_history.html#{{def_id}}">{{def_name}}</a>
+					</p>
+					<p>Deployed by: {{def_deployer}}</p>
+					<h5>Message</h5>
+					<p>{{def_message}}</p>
+					<p>Authored by: {{def_author}}</p>
+					<h5>Tributes</h5>
+					<ul class="nobullets">
+						<li>Credits/Resource Tribute: {{def_pub_cred}}%/{{def_pub_resource}}%</li>
+						<li>Member Credits/Resources Tribute: {{def_member_cred}}%/{{def_member_resource}}%</li>
+					</ul>
+					<p>Tribute changed by: {{def_taxchange}} ({{def_taxchange_clan}})<p>
+					<h5>Rail Health</h5>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{def_health}}" aria-valuemin="0" aria-valuemax="100" style="width: {{def_health}}%;">{{def_health}}%</div>
+					</div>
+					<p>{{def_health_count}}/{{def_max_health}}</p>
+					<h5>Battle Pay</h5>
+					<p>{{def_pay}}</p>
+					<p>Battle Pay set by: {{def_bpchange}} ({{def_bpchange_clan}})<p>
+					<h5>Tribute Change Allowed</h5>
+					<p class="taxtime" data-time="{{def_taxtime}}"></p>
+					<hr class="hidden-lg hidden-md">
+				</div>
+				<div class="col-md-6">
+					<h5>Attacking {{atk_is_alliance}}</h5>
+					<p><a target="_blank" href="/wf/clan_bl_history.html#{{atk_id}}">{{atk_name}}</a>
+					</p>
+					<p>Deployed by: {{atk_deployer}}</p>
+					<h5>Message</h5>
+					<p>{{atk_message}}</p>
+					<p>Authored by: {{atk_author}}</p>
+					<h5>Tributes</h5>
+					<ul class="nobullets">
+						<li>Credits/Resource Tribute: {{atk_pub_cred}}%/{{atk_pub_resource}}%</li>
+						<li>Member Credits/Resources Tribute: {{atk_member_cred}}%/{{atk_member_resource}}%</li>
+					</ul>
+					<p>Tribute changed by: {{atk_taxchange}} ({{atk_taxchange_clan}})<p>
+					<h5>Rail Health</h5>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{atk_health}}" aria-valuemin="0" aria-valuemax="100" style="width: {{atk_health}}%;">Attacking</div>
+					</div>
+					<p>{{atk_health_count}}/{{atk_max_health}}</p>
+					<h5>Battle Pay</h5>
+					<p>{{atk_pay}}</p>
+					<p>Battle Pay set by: {{atk_bpchange}} ({{atk_bpchange_clan}})<p>
+					<h5>Tribute Change Allowed</h5>
+					<p class="taxtime" data-time="{{atk_taxtime}}"></p>
+				</div>
+			</div>
+			<div class="row"><span class="bltime" data-endtime="{{time}}"></span>
+			</div>
+			{{{history}}}
+		</div>
+	</div>
+</div>
+ </script>
+ <script id="voidtrader-template" type="text/x-handlebars-template">
+  <div class="void-trader">
+	<a class="toggler-vt list-group-item">
+		<span style="text-align:left;"><span><strong>{{name}}</strong> - {{node}}</span>
+		<span class="pull-right"><span class="vttime" data-starttime="{{activation}}" data-endtime="{{expiry}}"></span> <span class="caret"></span></span>
+		<br style="clear: both;">
+	</a>
+	<div class="vtpanel collapse">
+		<div class="well">
+			<!--<p>Next Rotation: {{rotation}} (Period (days): {{rotation_period}})--></p>
+			<!--<p>Node List: {{node_list}}</p>-->
+			<table class="table table-bordered table-condensed table-hover table-striped">
+				<thead><tr><th>Item</th><th>Ducats</th><th>Credits</th></tr></thead>
+				<tbody>
+						{{#each active_manifest}}
+						<tr><td>{{ItemType}}</td><td>{{PrimePrice}}</td><td>{{RegularPrice}}</td></tr>
+						{{/each}}
+				</tbody>
+			</table>
+			<!--<p>Full Manifest List</p>
+			{{#items}}
+			<table class="table table-bordered table-condensed table-hover table-striped">
+				<thead><tr><th>Item</th><th>Ducats</th><th>Credits</th></tr></thead>
+				<tbody>
+						{{#each this}}
+						<tr><td>{{ItemType}}</td><td>{{PrimePrice}}</td><td>{{RegularPrice}}</td></tr>
+						{{/each}}
+				</tbody>
+			</table>
+			{{/items}}-->
+		</div>
+	</div>
+</div>
+ </script>
+ <script id="darvo-template" type="text/x-handlebars-template">
+  {{#deals}}
+<li class="list-group-item darvodaily"><span class="badge time" data-starttime="{{starttime}}" data-endtime="{{endtime}}"></span><span class="deal-name bold">{{name}}</span> | <span class="deal-discount">{{discount}}% off</span> | <span class="deal-amount bold"><img src="img/plat.png" style="height:16px" title="platinum" alt="platinum"> {{{amount}}}</span> | <span class="deal-inventory"><strong>{{remaining}}</strong>/{{total}} left</span></li>
+{{/deals}}
+ </script>
+ <script id="library-template" type="text/x-handlebars-template">
+  <li class="list-group-item librarytarget">
+	<span class="badge target-time" data-starttime="{{time}}"></span>
+	<span class="target-name bold">{{name}}</span> | Scans required: <strong>{{scans}}</strong>
+	<div class="progress" style="background-color: #555555">
+		<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100" style="width: {{progress}}%;">{{progress}}</div>
+	</div>
+</li>
+ </script>
+ <script id="persist-template" type="text/x-handlebars-template">
+  {{#enemies}}
+<li class="list-group-item persene">
+<span>{{name}} | Last Discovered: <span class="badge target-time" data-starttime="{{time}}"></span> at {{node}} | Region: <strong>{{region}}</strong> | Health : {{heatlh}} | Flee After: {{flee_dmg}} Damage | Rank: {{rank}} <span class="located" style="text-align:right; float:right;">Discovered: {{{discovered}}}</span></span>
+</li>
+{{/enemies}}
+ </script>
+ <script>
+  window.config = {
+		dataUrl: "/wf/data/",
+		platformDataUrl: "/wf/data/",
+		platform: "pc"
+	};
+ </script>
+ <script src="index.js?v=130">
+ </script>
+ <audio>
+  <source src="sound/chime.mp3" type="audio/mpeg"/>
+  <source src="sound/chime.ogg" type="audio/ogg"/>
+ </audio>
+</html>
+
+Process finished with exit code 0
